@@ -1,0 +1,22 @@
+{
+  "name": "ABCircularProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of ABCircularProgressView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Armando Brito/ABCircularProgressView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Armando Brito": "arebrif@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Armando Brito/ABCircularProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ABCircularProgressView/Classes/**/*"
+}

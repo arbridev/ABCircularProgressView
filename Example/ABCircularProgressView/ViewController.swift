@@ -7,17 +7,22 @@
 //
 
 import UIKit
+import ABCircularProgressView
 
 class ViewController: UIViewController {
+    
+    var progressView: ABCircularProgressView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        progressView = ABCircularProgressView(frame: CGRect(x: 0, y: 0, width: 60, height: 60), barColor: .systemBlue)
+        progressView.setProgress(percentage: 75)
+        
+        progressView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(progressView)
+        
+        progressView.center = view.center
     }
 
 }
