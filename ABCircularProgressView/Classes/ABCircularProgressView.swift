@@ -9,18 +9,18 @@ import UIKit
 
 public class ABCircularProgressView: UIView {
     
-    public var barColor: UIColor = .black
-    public var barBackColor: UIColor = .clear
+    public var progressColor: UIColor = .black
+    public var trackColor: UIColor = .clear
     private var progress: CGFloat = 0.0
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    public init(frame: CGRect, barColor: UIColor = .black, barBackColor: UIColor = .clear) {
+    public init(frame: CGRect, progressColor: UIColor = .black, trackColor: UIColor = .clear) {
         super.init(frame: frame)
-        self.barColor = barColor
-        self.barBackColor = barBackColor
+        self.progressColor = progressColor
+        self.trackColor = trackColor
     }
     
     public required init?(coder: NSCoder) {
@@ -56,8 +56,8 @@ public class ABCircularProgressView: UIView {
     override public func draw(_ rect: CGRect) {
         super.draw(rect)
         self.layer.sublayers = nil
-        drawCircle(radius: frame.width / 2, color: barBackColor)
-        drawCircle(radius: frame.width / 2, startAngle: 1.5 * .pi, endAngle: 1.5 * .pi + 2 * progress * .pi, color: barColor)
+        drawCircle(radius: frame.width / 2, color: trackColor)
+        drawCircle(radius: frame.width / 2, startAngle: 1.5 * .pi, endAngle: 1.5 * .pi + 2 * progress * .pi, color: progressColor)
         drawCircle(radius: frame.width / 2.5, color: .white)
     }
     
