@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        progressView = ABCircularProgressView(frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 60, height: 60)), barColor: .systemBlue)
+        progressView = ABCircularProgressView(frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 60, height: 60)), progressColor: .systemBlue)
         progressView.setProgress(percentage: 75)
         view.addSubview(progressView)
         progressView.center = view.center
