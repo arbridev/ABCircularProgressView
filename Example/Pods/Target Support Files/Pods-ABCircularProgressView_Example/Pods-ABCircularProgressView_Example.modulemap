@@ -1,6 +1,0 @@
-framework module Pods_ABCircularProgressView_Example {
-  umbrella header "Pods-ABCircularProgressView_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

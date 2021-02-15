@@ -1,5 +1,5 @@
 import XCTest
-import ABCircularProgressView
+import ABFCircularProgressView
 
 class Tests: XCTestCase {
     

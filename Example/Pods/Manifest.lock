@@ -1,16 +1,16 @@
 PODS:
-  - ABCircularProgressView (0.1.0)
+  - ABFCircularProgressView (0.1.0)
 
 DEPENDENCIES:
-  - ABCircularProgressView (from `../`)
+  - ABFCircularProgressView (from `../`)
 
 EXTERNAL SOURCES:
-  ABCircularProgressView:
+  ABFCircularProgressView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ABCircularProgressView: 8a463c08c56511e1b4d8ca665dd2d58830392ca9
+  ABFCircularProgressView: 09d7be7c078ab4073d515488d8ec7e1b771beed6
 
-PODFILE CHECKSUM: 42a439cfe5557652ad88c9ffcf11bcffa04509e8
+PODFILE CHECKSUM: e375f7d69a7a37640abe861921b90402d2dfaf2c
 
 COCOAPODS: 1.10.0

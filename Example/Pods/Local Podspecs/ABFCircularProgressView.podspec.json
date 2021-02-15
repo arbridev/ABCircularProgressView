@@ -1,0 +1,22 @@
+{
+  "name": "ABFCircularProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of ABFCircularProgressView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arbridev/ABFCircularProgressView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arbridev": "arebrif@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arbridev/ABFCircularProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ABFCircularProgressView/Classes/**/*"
+}
